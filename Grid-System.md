@@ -91,9 +91,9 @@ import { Row, Column } from 'hedron';
   </Column>
   <Column sm={8}>
     <ul>
-      <li><a href="#">Footer Link<a></li>
-      <li><a href="#">Footer Link<a></li>
-      <li><a href="#">Footer Link<a></li>
+      <li><a href="#">Footer Link</a></li>
+      <li><a href="#">Footer Link</a></li>
+      <li><a href="#">Footer Link</a></li>
     </ul>
   </Column>
 </Row>
