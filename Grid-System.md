@@ -22,7 +22,7 @@ import { Row } from 'hedron';
 <Row />
 ```
 
-Although this is the most basic usage, you would never use a `Row` in the above way. In order for a `Row` to be useful, it needs to be filled with [`Column`](#column-component) components. Currently it's advised to __only__ put `Column` components directly inside `Row` components, because of the way the property inheritance system works in hedron.
+Although this is the most basic usage, you would never use a `Row` in the above way. In order for a `Row` to be useful, it needs to be filled with [`Column`](#column-component) components. Currently it's advised to __only__ put `Column` or `Row` components directly inside `Row` components, because of the way the property inheritance system works in hedron.
 
 ### Row Options
 
