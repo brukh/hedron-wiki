@@ -12,17 +12,17 @@
 #### Basic Stuff
 
 ➡️ [Interactive Demo][demo]  
-➡️ [Installation Instructions][install]
+📦 [Installation Instructions][install]
 
 #### Documentation
 
-➡️ [Grid System][grid]
+🏗 [Grid System][grid]
 
 #### Get Involved
 
-➡️ [Issue Tracker][issues]  
-➡️ [Contributing][contributing]  
-➡️ [Join the Conversation on Gitter][gitter]
+⚠️ [Issue Tracker][issues]  
+⛑ [Contributing][contributing]  
+💬 [Join the Conversation on Gitter][gitter]
 
 [demo]: http://www.webpackbin.com/V1zqQ_gZf
 [install]: https://github.com/JSBros/hedron#installation
