@@ -28,6 +28,7 @@ Although this is the most basic usage, you would never use a `Row` in the above 
 
 | Property Name  |      Type     |  Description  |
 | -------------: | ------------- | ------------- |
+|          debug |      Bool     | Draws all child columns with "bounding boxes" for easy visualization of the grid. (Default: `false`) |
 |      divisions |     Number    | The amount of horizontal columns this row creates. (Default: `12`) |
 
 ## Column Component
