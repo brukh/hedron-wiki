@@ -28,8 +28,14 @@ Although this is the most basic usage, you would never use a `Row` in the above 
 
 | Property Name  |      Type     |  Description  |
 | -------------: | ------------- | ------------- |
+|   alignContent |     String    | Sets the value of the CSS `align-content` property |
+|     alignItems |     String    | Sets the value of the CSS `align-items` property |
+|      alignSelf |     String    | Sets the value of the CSS `align-self` property |
 |          debug |      Bool     | Draws all child columns with "bounding boxes" for easy visualization of the grid. (Default: `false`) |
 |      divisions |     Number    | The amount of horizontal columns this row creates. (Default: `12`) |
+| justifyContent |     String    | Sets the value of the CSS `justify-content` property |
+|          order |     String    | Sets the value of the CSS `order` property |
+
 
 ## Column Component
 
