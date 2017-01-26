@@ -16,7 +16,8 @@
 
 #### Documentation
 
-🏗 [Grid System][grid]
+🏗 [Grid System][grid]  
+🏗 [Break Points][breakpoints]
 
 #### Get Involved
 
@@ -27,6 +28,7 @@
 [demo]: http://www.webpackbin.com/V1zqQ_gZf
 [install]: https://github.com/JSBros/hedron#installation
 [grid]: https://github.com/JSBros/hedron/wiki/Grid-System
+[breakpoints]: https://github.com/JSBros/hedron/wiki/BreakPoints
 [issues]: https://github.com/JSBros/hedron/issues
 [contributing]: https://github.com/JSBros/hedron#contributing
 [gitter]: https://gitter.im/JSBros/hedron

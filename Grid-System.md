@@ -12,7 +12,7 @@ Hedron is built mobile-first, which means that all styles that should be display
 }
 ```
 
-Eventually I'd like to implement a way to customize these break-points on a per-project basis.
+These can be customized using the [`<BreakpointProvider>`](https://github.com/JSBros/hedron/wiki/BreakPoints) component.
 
 ## Row Component 
 
