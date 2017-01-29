@@ -1,8 +1,8 @@
 ## BreakpointProvider component
 
-This works similarly of the
+This works similarly to the
 [`<ThemeProvider>`](https://github.com/styled-components/styled-components/blob/master/docs/theming.md)
-component of styled-components.
+component in [`styled-components`](https://github.com/styled-components/styled-components).
 Any hedron component inside `<BreakpointProvider>` will use these breakpoints.
 
 ``` jsx
@@ -15,14 +15,14 @@ import { BreakpointProvider, Row, Column } from 'hedron';
 </BreakpointProvider>
 ```
 
-If any of the breakpoints is not given the default values will be used.
+If any of the breakpoints are not given, the default values will be used.
 
 ``` jsx
 // Here the 'lg' breakpoint defaults to 1100
 <BreakpointProvider breakpoints={{ sm: 300, md: 900 }} />
 ```
 
-Usually you would wrap your entire app into `<BreakpointProvider>` so that you can access the breakpoints anywhere.
+Usually you would wrap your entire app into a `<BreakpointProvider>` so that you can access the breakpoints anywhere. However, you can place your `<BreakpointProvider>` anywhere inside your component tree and only the children will utilize those breakpoints. You can also nest multiple `<BreakpointProvider>` components if you want to have multiple different breakpoints on a single page.
 
 ## withBreakpoints
 
