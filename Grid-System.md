@@ -14,6 +14,30 @@ Hedron is built mobile-first, which means that all styles that should be display
 
 These can be customized using the [`<BreakpointProvider>`](https://github.com/JSBros/hedron/wiki/BreakPoints) component.
 
+## Page Component
+
+``` jsx
+import { Page } from 'hedron';
+...
+<Page>
+  <Row />
+  <Row />
+</Page>
+```
+
+The page component is the topmost component in the hedron grid system. It is designed to be a fixed (or fluid) width container which holds all your `Rows`.
+
+### Page Options
+
+| Property Name  |      Type     |  Description  |
+| -------------: | ------------- | ------------- |
+|      className |     String    | Set a css class if you wish to override the styles |
+|        tagName |     String    | By default, the `Page` component uses a `section` element. You can change it to something like a `div` by specifying the `tagName` |
+|          debug |      Bool     | Draws all child columns with "bounding boxes" for easy visualization of the grid. This enables debug mode for all the children of this component (Default: `false`) |
+|          fluid |     Number    | Enabling fluid mode disables the fixed width of the `Page` (Default: `false`) |
+|          width |     String    | If not using `fluid`, set a custom width for the page. |
+
+
 ## Row Component 
 
 ``` jsx
