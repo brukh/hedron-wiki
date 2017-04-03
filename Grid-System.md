@@ -21,12 +21,12 @@ The hedron grid system includes three main layout components, `<Section />`, `<C
 ``` jsx
 import { Section, Container, Box } from 'hedron';
 ...
-<Section> <--- wrapper component
+<Section> <-- wrapper component
   <Container> <--- flex container
     <Box> <--- flex children container
       <p>Hedron rocks!!</p> <--- your awesome content 👊
     <Box/>
-  <Container/>
+  </Container>
 </Section>
 
 ```
@@ -103,7 +103,7 @@ import { LayoutProvider, Section, Container, Box } from 'hedron';
             <Box xs='100%'>Navigation</Box>
         </Container>
 
-        <Container wrap debug>
+        <Container wrap>
             <Box xs='100%' md='30%' lg='40%'>
                 <Container direction='vertical'>
                     <Box>Sidebar</Box>
