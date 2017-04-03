@@ -25,7 +25,7 @@ import { Section, Container, Box } from 'hedron';
   <Container> <--- flex container
     <Box> <--- flex children container
       <p>Hedron rocks!!</p> <--- your awesome content 👊
-    <Box/>
+    </Box>
   </Container>
 </Section>
 
