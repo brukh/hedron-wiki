@@ -87,6 +87,19 @@ The `<Box />` component contains elements inside of your flex container (`<Conta
 |       mdShift | `String`           | Width of left margin during `md` breakpoint.                 | `null`  |
 |       lgShift | `String`           | Width of left margin during `lg` breakpoint.                 | `null`  |
 
+## Hidden Component
+
+The `<Hidden />` component hides children at given breakpoints. Check out the [layout examples](#layout-examples) for example usage.
+
+### Hidden Props
+
+| Property Name | Type   | Description                     | Default |
+|--------------:|:-------|:--------------------------------|:--------|
+|            xs | `Bool` | Hidden on xs breakpoint if true | `null`  |
+|            sm | `Bool` | Hidden on sm breakpoint if true | `null`  |
+|            md | `Bool` | Hidden on md breakpoint if true | `null`  |
+|            lg | `Bool` | Hidden on lg breakpoint if true | `null`  |
+
 ## Layout Examples
 
 ### Sidebar
@@ -122,4 +135,16 @@ import { LayoutProvider, Section, Container, Box } from 'hedron';
         </Container>
     </Section>
 </LayoutProvider>
+```
+
+### Hidden Component 
+
+```
+<LayoutProvider debug={{ enabled: true }}>
+  <Section debug>
+    <p>
+      This row is hidden on lg
+    </p>
+    <Hidden lg><Container><Box /></Container></Hidden>
+  </Section>
 ```
