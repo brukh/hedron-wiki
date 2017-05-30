@@ -89,7 +89,7 @@ The `<Box />` component contains elements inside of your flex container (`<Conta
 
 ## Hidden Component
 
-The `<Hidden />` component hides children at given breakpoints. Check out the [layout examples](#hidden-component-example) for example usage.
+The `<Hidden />` component hides children at given breakpoints. Check out the [layout examples](#hidden-component-example) for usage details.
 
 ### Hidden Props
 
