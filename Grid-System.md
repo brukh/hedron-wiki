@@ -89,7 +89,7 @@ The `<Box />` component contains elements inside of your flex container (`<Conta
 
 ## Hidden Component
 
-The `<Hidden />` component hides children at given breakpoints. Check out the [layout examples](#layout-examples) for example usage.
+The `<Hidden />` component hides children at given breakpoints. Check out the [layout examples](#hidden-component) for example usage.
 
 ### Hidden Props
 
@@ -137,9 +137,13 @@ import { LayoutProvider, Section, Container, Box } from 'hedron';
 </LayoutProvider>
 ```
 
-### Hidden Component 
+### Hidden Component
 
-```
+``` jsx
+import { LayoutProvider, Section, Container, Box, Hidden } from 'hedron';
+
+...
+
 <LayoutProvider debug={{ enabled: true }}>
   <Section debug>
     <p>
